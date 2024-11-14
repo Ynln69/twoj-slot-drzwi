@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./public/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TwójSlotDrzwi – Najlepsze drzwi w Polsce. Stylowe, trwałe i nowoczesne drzwi, które idealnie pasują do każdego wnętrza."
+    />
+    <meta
+      name="keywords"
+      content="drzwi, drzwi nowoczesne, drzwi klasyczne, drzwi przesuwne, Polska, design, jakość, slot online"
+    />
+    <title>TwójSlotDrzwi – Najlepsze drzwi w Polsce</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta
+      property="og:title"
+      content="TwójSlotDrzwi – Najlepsze drzwi w Polsce"
+    />
+    <meta
+      property="og:description"
+      content="Stylowe i trwałe drzwi od TwójSlotDrzwi. Odkryj naszą kolekcję produktów, które łączą funkcjonalność i wyjątkowy design."
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="desktop-navigation">
+        <ul class="nav-left">
+          <li><a href="./#about" data-translate="header.link1">O nas</a></li>
+          <li>
+            <a href="./#services" data-translate="header.link2">Usługi</a>
+          </li>
+          <li>
+            <a href="./#reviews" data-translate="header.link3">Opinie </a>
+          </li>
+        </ul>
+        <a class="logo" href="./">
+          <img
+            src="./img/logo-removebg-preview.png"
+            alt="TwójSlotDrzwi Logo"
+            width="100"
+            height="100"
+          />
+        </a>
+        <ul class="nav-right">
+          <li>
+            <a href="./page/index.html" data-translate="header.link4"
+              >Produkty</a
+            >
+          </li>
+          <li>
+            <a href="./page/contacts-page.html" data-translate="header.link5"
+              >Kontakt</a
+            >
+          </li>
+          <li>
+            <div class="language-select">
+              <select id="language-dropdown" class="header-select">
+                <option value="pl" id="lang-pl">Polski</option>
+                <option value="en" id="lang-en">English</option>
+              </select>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" aria-label="Otwórz menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="mobile-navigation">
+        <button class="menu-close" aria-label="Zamknij menu">&times;</button>
+        <ul>
+          <li><a href="#about" data-translate="header.link1">O nas</a></li>
+          <li><a href="#services" data-translate="header.link2">Usługi</a></li>
+          <li>
+            <a href="./#reviews" data-translate="header.link3">Opinie </a>
+          </li>
+          <li>
+            <a href="./page/index.html" data-translate="header.link4"
+              >Produkty</a
+            >
+          </li>
+          <li>
+            <a href="./page/contacts-page.html" data-translate="header.link5"
+              >Kontakt</a
+            >
+          </li>
+          <li>
+            <div class="language-select">
+              <select id="mobile-language-dropdown" class="header-select">
+                <option value="pl" id="mobile-lang-pl">Polski</option>
+                <option value="en" id="mobile-lang-en">English</option>
+              </select>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="container">
+          <h1 data-translate="hero.mainTitle">
+            Witamy w świecie doskonałych drzwi!
+          </h1>
+          <p data-translate="hero.text" class="text">
+            Solidność, styl i funkcjonalność – drzwi, które zmienią Twój dom.
+          </p>
+          <a
+            href="./page/index.html"
+            class="btn btn-white btn-animate"
+            data-translate="hero.btn"
+            >Poznaj ofertę</a
+          >
+        </div>
+      </section>
+
+      <section id="about" class="about section">
+        <div class="container">
+          <h2 data-translate="about.mainTitle" class="title">Kim jesteśmy</h2>
+          <p data-translate="about.text1" class="text">
+            Witamy w TwójSlotDrzwi – miejscu, gdzie jakość spotyka design. Nasze
+            drzwi to więcej niż element wyposażenia, to wyraz stylu i
+            funkcjonalności dla Twojego domu.
+          </p>
+          <p data-translate="about.text2" class="text">
+            Oferujemy szeroki wybór drzwi: od klasycznych po nowoczesne,
+            dostosowane do każdego wnętrza i potrzeb naszych klientów. Jakość i
+            precyzja wykonania są naszą wizytówką.
+          </p>
+        </div>
+      </section>
+
+      <section id="services" class="services section">
+        <div class="container">
+          <h2 data-translate="services.mainTitle" class="title">
+            Dlaczego warto wybrać nas
+          </h2>
+          <ul class="services-grid">
+            <li class="service-item">
+              <i class="fas fa-door-open service-icon"></i>
+              <h3 data-translate="services.title1" class="subTitle">
+                Trwałość i jakość
+              </h3>
+              <p data-translate="services.desc1" class="text">
+                Nasze drzwi wykonane są z materiałów najwyższej jakości, co
+                zapewnia długą żywotność i niezawodność.
+              </p>
+            </li>
+            <li class="service-item">
+              <i class="fas fa-ruler-combined service-icon"></i>
+              <h3 data-translate="services.title2" class="subTitle">
+                Dopasowanie na miarę
+              </h3>
+              <p data-translate="services.desc2" class="text">
+                Oferujemy drzwi dostosowane do Twoich indywidualnych potrzeb, w
+                różnych rozmiarach i stylach.
+              </p>
+            </li>
+            <li class="service-item">
+              <i class="fas fa-shipping-fast service-icon"></i>
+              <h3 data-translate="services.title3" class="subTitle">
+                Szybka i bezpieczna dostawa
+              </h3>
+              <p data-translate="services.desc3" class="text">
+                Gwarantujemy ekspresową dostawę, aby Twoje drzwi dotarły na czas
+                i w idealnym stanie.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="products" class="products section">
+        <div class="container">
+          <h2 data-translate="products.mainTitle" class="title">
+            Nasza oferta drzwi
+          </h2>
+          <ul class="products-grid">
+            <li class="product-item">
+              <img
+                src="./img/products/product1.webp"
+                alt="Drzwi klasyczne"
+                class="product-image"
+              />
+              <h3 data-translate="products.title1" class="subTitle">
+                Drzwi klasyczne
+              </h3>
+              <p data-translate="products.text1" class="text">
+                Eleganckie drzwi o ponadczasowym stylu, idealne do każdego
+                wnętrza.
+              </p>
+            </li>
+            <li class="product-item">
+              <img
+                src="./img/products/product2.webp"
+                alt="Drzwi nowoczesne"
+                class="product-image"
+              />
+              <h3 data-translate="products.title2" class="subTitle">
+                Drzwi nowoczesne
+              </h3>
+              <p data-translate="products.text2" class="text">
+                Minimalistyczne drzwi, które podkreślają nowoczesny charakter
+                domu.
+              </p>
+            </li>
+            <li class="product-item">
+              <img
+                src="./img/products/product3.webp"
+                alt="Drzwi przesuwne"
+                class="product-image"
+              />
+              <h3 data-translate="products.title3" class="subTitle">
+                Drzwi przesuwne
+              </h3>
+              <p data-translate="products.text3" class="text">
+                Praktyczne i stylowe rozwiązanie, idealne do oszczędzania
+                przestrzeni.
+              </p>
+            </li>
+          </ul>
+          <a
+            href="./page/index.html"
+            class="btn btn-white btn-animate"
+            data-translate="hero.btn"
+            >Zobacz wszystkie produkty</a
+          >
+        </div>
+      </section>
+
+      <section id="reviews" class="reviews section">
+        <div class="container">
+          <h2 data-translate="review.mainTitle" class="title">
+            Opinie naszych klientów
+          </h2>
+          <ul class="reviews-grid">
+            <li class="review-item">
+              <p data-translate="review.desc1" class="text">
+                "Drzwi zamówione w TwójSlotDrzwi były idealne! Pięknie
+                zaprojektowane i solidnie wykonane. Polecam!"
+              </p>
+              <span class="review-author" data-translate="review.name1"
+                >- Anna Kowalska</span
+              >
+            </li>
+            <li class="review-item">
+              <p data-translate="review.desc2" class="text">
+                "Zamówiłem nowoczesne drzwi do mojego mieszkania i są
+                fantastyczne! Doskonały design i szybka dostawa."
+              </p>
+              <span class="review-author" data-translate="review.name2"
+                >- Piotr Nowak</span
+              >
+            </li>
+            <li class="review-item">
+              <p data-translate="review.desc3" class="text">
+                "Drzwi przesuwne z TwójSlotDrzwi to najlepszy wybór. Wysoka
+                jakość i idealne dopasowanie do mojego wnętrza."
+              </p>
+              <span class="review-author" data-translate="review.name3"
+                >- Maria Wiśniewska</span
+              >
+            </li>
+            <li class="review-item">
+              <p data-translate="review.desc4" class="text">
+                "Doskonała obsługa i niesamowity wybór drzwi. Na pewno wrócę po
+                więcej!"
+              </p>
+              <span class="review-author" data-translate="review.name4"
+                >- Janina Malinowska</span
+              >
+            </li>
+            <li class="review-item">
+              <p data-translate="review.desc5" class="text">
+                "Drzwi klasyczne zamówione w TwójSlotDrzwi zrobiły ogromne
+                wrażenie na moich znajomych. Polecam każdemu!"
+              </p>
+              <span class="review-author" data-translate="review.name5"
+                >- Tomasz Kowalczyk</span
+              >
+            </li>
+            <li class="review-item">
+              <p data-translate="review.desc6" class="text">
+                "Najlepsze drzwi w Polsce! Zamówiłam drzwi nowoczesne i jestem
+                zachwycona ich wyglądem i funkcjonalnością."
+              </p>
+              <span class="review-author" data-translate="review.name6"
+                >- Katarzyna Zielińska</span
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer section">
+      <div class="container footer-container">
+        <div class="footer-navigation">
+          <ul>
+            <li><a href="./#hero" data-translate="footer.link1">Start</a></li>
+            <li><a href="./#about" data-translate="footer.link2">O nas</a></li>
+            <li>
+              <a href="./#services" data-translate="footer.link3">Usługi</a>
+            </li>
+            <li>
+              <a href="./#products" data-translate="footer.link4">Produkty</a>
+            </li>
+            <li>
+              <a href="./#reviews" data-translate="footer.link5">Opinie</a>
+            </li>
+            <li>
+              <a href="./page/contacts-page.html" data-translate="footer.link6"
+                >Kontakt</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <a href="./page/polityka-page.html" data-translate="footer.link7"
+            >Polityka prywatności</a
+          >
+          <a href="./page/warunki-page.html" data-translate="footer.link8"
+            >Regulamin</a
+          >
+          <a href="./page/cookie-page.html" data-translate="footer.link9"
+            >Polityka Cookies</a
+          >
+        </div>
+        <div class="footer-contact">
+          <a href="tel:+48726617300">
+            <i class="fas fa-phone-alt"></i>
+            <span data-translate="footer.text1">Telefon:</span> +48 726 617 300
+          </a>
+          <address>
+            <i class="fas fa-map-marker-alt"></i>
+            <span data-translate="footer.text2">Adres:</span> ul. Zielona 15,
+            01-234 Kraków
+          </address>
+          <a href="mailto:kontakt@twójslotdrzwi.com">
+            <i class="fas fa-envelope"></i>
+            <span data-translate="footer.text3">Email:</span>
+            kontakt@twójslotdrzwi.com
+          </a>
+        </div>
+        <div class="footer-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2564.620457262041!2d19.93675581594139!3d50.06465007942426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b6e2fd5c4c3%3A0x13156df59d5d2267!2sZielona%2015%2C%2001-234%20Krak%C3%B3w%2C%20Polska!5e0!3m2!1spl!2spl!4v1699632204568!5m2!1spl!2spl"
+            width="100%"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="footer-bottom">
+          <p data-translate="footer.text">
+            &copy; TwójSlotDrzwi 2024. Wszystkie prawa zastrzeżone.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div id="cookie-banner" class="cookie-banner">
+      <p data-translate="cookieBanner.text">
+        Ta strona używa plików cookie, aby zapewnić Ci lepszą jakość
+        przeglądania i dostosować treści do Twoich potrzeb.
+      </p>
+      <button id="accept-cookies" data-translate="cookieBanner.button">
+        Zgadzam się na pliki cookie
+      </button>
+    </div>
+    
+    <script src="https://unpkg.com/i18next-xhr-backend@latest/i18nextXHRBackend.min.js"></script>
+    <script src="https://unpkg.com/i18next@21.6.11/dist/umd/i18next.min.js"></script>
+    <script src="./js/translator.js"></script>
+    <script src="./js/hero.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/cookie-banner.js"></script>
+  </body>
+</html>

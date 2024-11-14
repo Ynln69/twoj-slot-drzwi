@@ -1,0 +1,67 @@
+{
+  "doors": [
+    {
+      "id": 1,
+      "photo": "img/products/item1.webp",
+      "title": "Drzwi Drewniane Klasyczne",
+      "description": "Eleganckie drzwi o ponadczasowym stylu, idealne do każdego wnętrza.",
+      "type": "Drzwi Drewniane"
+    },
+    {
+      "id": 2,
+      "photo": "img/products/item2.webp",
+      "title": "Drzwi Szklane Przesuwne",
+      "description": "Nowoczesne drzwi szklane z mechanizmem przesuwnym, idealne do małych przestrzeni.",
+      "type": "Drzwi Szklane"
+    },
+    {
+      "id": 3,
+      "photo": "img/products/item3.webp",
+      "title": "Drzwi Metalowe Zewnętrzne",
+      "description": "Wytrzymałe drzwi metalowe, zapewniające bezpieczeństwo i trwałość.",
+      "type": "Drzwi Metalowe"
+    },
+    {
+      "id": 4,
+      "photo": "img/products/item4.webp",
+      "title": "Drzwi Wewnętrzne Nowoczesne",
+      "description": "Minimalistyczne drzwi wewnętrzne, które podkreślają nowoczesny charakter domu.",
+      "type": "Drzwi Wewnętrzne"
+    },
+    {
+      "id": 5,
+      "photo": "img/products/item5.webp",
+      "title": "Drzwi Harmonijkowe",
+      "description": "Praktyczne drzwi harmonijkowe, idealne do oszczędzania przestrzeni.",
+      "type": "Drzwi Harmonijkowe"
+    },
+    {
+      "id": 6,
+      "photo": "img/products/item6.webp",
+      "title": "Drzwi Antywłamaniowe",
+      "description": "Drzwi z systemem antywłamaniowym, zapewniające maksymalne bezpieczeństwo.",
+      "type": "Drzwi Antywłamaniowe"
+    },
+    {
+      "id": 7,
+      "photo": "img/products/item7.webp",
+      "title": "Drzwi Przeszklone Stylowe",
+      "description": "Drzwi z przeszkleniem, które dodają elegancji i przepuszczają światło.",
+      "type": "Drzwi Przeszklone"
+    },
+    {
+      "id": 8,
+      "photo": "img/products/item8.webp",
+      "title": "Drzwi Dźwiękoszczelne",
+      "description": "Drzwi dźwiękoszczelne, idealne do biur lub sypialni, gdzie ważna jest cisza.",
+      "type": "Drzwi Dźwiękoszczelne"
+    },
+    {
+      "id": 9,
+      "photo": "img/products/item9.webp",
+      "title": "Drzwi Malowane na Wymiar",
+      "description": "Drzwi malowane na wymiar, dopasowane do Twoich indywidualnych potrzeb.",
+      "type": "Drzwi Malowane"
+    }
+  ]
+}

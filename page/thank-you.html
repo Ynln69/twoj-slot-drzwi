@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="../public/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TwójSlotDrzwi – Najlepsze drzwi w Polsce. Stylowe, trwałe i nowoczesne drzwi, które idealnie pasują do każdego wnętrza."
+    />
+    <meta
+      name="keywords"
+      content="drzwi, drzwi nowoczesne, drzwi klasyczne, drzwi przesuwne, Polska, design, jakość, slot online"
+    />
+    <title>TwójSlotDrzwi – Najlepsze drzwi w Polsce</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/styles.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta
+      property="og:title"
+      content="TwójSlotDrzwi – Najlepsze drzwi w Polsce"
+    />
+    <meta
+      property="og:description"
+      content="Stylowe i trwałe drzwi od TwójSlotDrzwi. Odkryj naszą kolekcję produktów, które łączą funkcjonalność i wyjątkowy design."
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="desktop-navigation">
+        <ul class="nav-left">
+          <li><a href="../#about" data-translate="header.link1">O nas</a></li>
+          <li><a href="../#services" data-translate="header.link2">Usługi</a></li>
+          <li><a href="../#reviews" data-translate="header.link3">Opinie </a></li>
+        </ul>
+        <a class="logo" href="./">
+          <img
+            src="../img/logo-removebg-preview.png"
+            alt="TwójSlotDrzwi Logo"
+            width="100"
+            height="100"
+          />
+        </a>
+        <ul class="nav-right">
+          <li><a href="./page/index.html" data-translate="header.link4">Produkty</a></li>
+          <li><a href="./page/contacts-page.html" data-translate="header.link5">Kontakt</a></li>
+          <li>
+            <div class="language-select">
+              <select id="language-dropdown" class="header-select">
+                <option value="pl" id="lang-pl">Polski</option>
+                <option value="en" id="lang-en">English</option>
+              </select>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" aria-label="Otwórz menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="mobile-navigation">
+        <button class="menu-close" aria-label="Zamknij menu">&times;</button>
+        <ul>
+          <li><a href="../#about" data-translate="header.link1">O nas</a></li>
+          <li><a href="../#services" data-translate="header.link2">Usługi</a></li>
+          <li><a href="../#reviews" data-translate="header.link3">Opinie </a></li>
+          <li><a href="./index.html" data-translate="header.link4">Produkty</a></li>
+          <li><a href="./contacts-page.html" data-translate="header.link5">Kontakt</a></li>
+          <li>
+            <div class="language-select">
+              <select id="mobile-language-dropdown" class="header-select">
+                <option value="pl" id="mobile-lang-pl">Polski</option>
+                <option value="en" id="mobile-lang-en">English</option>
+              </select>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="thank-you-section">
+        <div class="thank-you-container">
+          <h1 class="thank-you-title" data-translate="thankYou.title">
+            Dziękujemy!
+          </h1>
+          <p class="thank-you-text" data-translate="thankYou.text">
+            Twoja wiadomość została pomyślnie wysłana. Skontaktujemy się z Tobą
+            w najbliższym czasie.
+          </p>
+          <a
+            href="../index.html"
+            class="btn btn-white btn-animate"
+            data-translate="thankYou.button"
+          >
+            Powrót na stronę główną
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-thumb">
+          <p data-translate="footer.text">
+            &copy; Drzwi Stylowe 2024. Wszystkie prawa zastrzeżone.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/i18next-xhr-backend@latest/i18nextXHRBackend.min.js"></script>
+    <script src="https://unpkg.com/i18next@21.6.11/dist/umd/i18next.min.js"></script>
+    <script src="../js/translator.js"></script>
+    <script src="../js/mobile-menu.js"></script>
+    <script src="../js/cookie-banner.js"></script>
+  </body>
+</html>

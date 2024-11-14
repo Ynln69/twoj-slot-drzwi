@@ -1,0 +1,67 @@
+.cookie-banner {
+  position: fixed;
+  display: none;
+  bottom: 50px;
+  left: 10%;
+  right: 10%;
+  background-color: #f9f3ee; /* Кремовий фон */
+  color: #4a3928; /* Темно-коричневий текст */
+  text-align: center;
+  padding: 20px;
+  z-index: 1000;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cookie-banner.show {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+}
+
+#accept-cookies {
+  display: inline-block;
+  padding: 12px 32px;
+  min-width: 200px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+
+  color: #fff; /* Білий текст */
+  background: #c9a97e; /* Золотистий фон */
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  transition: background-color 250ms ease-in-out, transform 250ms ease;
+
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#accept-cookies:hover,
+#accept-cookies:focus {
+  background-color: #b28c68; /* Темніший золотистий */
+  transform: scale(1.05); /* Легке збільшення при наведенні */
+}
+
+/* Адаптивність */
+@media (min-width: 440px) {
+  .cookie-banner {
+    width: 70%;
+  }
+}
+
+@media (min-width: 768px) {
+  .cookie-banner {
+    bottom: 30px;
+    width: 50%;
+  }
+
+  #accept-cookies {
+    padding: 14px 36px;
+    font-size: 18px;
+  }
+}

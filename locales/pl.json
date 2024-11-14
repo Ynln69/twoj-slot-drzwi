@@ -1,0 +1,195 @@
+{
+  "header": {
+    "link1": "O nas",
+    "link2": "Usługi",
+    "link3": "Opinie",
+    "link4": "Produkty",
+    "link5": "Kontakt"
+  },
+  "hero": {
+    "mainTitle": "Witamy w świecie doskonałych drzwi!",
+    "text": "Solidność, styl i funkcjonalność – drzwi, które zmienią Twój dom.",
+    "btn": "Poznaj ofertę"
+  },
+  "about": {
+    "mainTitle": "Kim jesteśmy",
+  "text1": "Witamy w TwójSlotDrzwi – miejscu, gdzie jakość spotyka design. Nasze drzwi to więcej niż element wyposażenia, to wyraz stylu i funkcjonalności dla Twojego domu.",
+  "text2": "Oferujemy szeroki wybór drzwi: od klasycznych po nowoczesne, dostosowane do każdego wnętrza i potrzeb naszych klientów. Jakość i precyzja wykonania są naszą wizytówką."
+  },
+
+  "services": {
+    "mainTitle": "Dlaczego warto wybrać nas",
+  "title1": "Trwałość i jakość",
+  "desc1": "Nasze drzwi wykonane są z materiałów najwyższej jakości, co zapewnia długą żywotność i niezawodność.",
+  "title2": "Dopasowanie na miarę",
+  "desc2": "Oferujemy drzwi dostosowane do Twoich indywidualnych potrzeb, w różnych rozmiarach i stylach.",
+  "title3": "Szybka i bezpieczna dostawa",
+  "desc3": "Gwarantujemy ekspresową dostawę, aby Twoje drzwi dotarły na czas i w idealnym stanie."
+  },
+
+  "products": {
+    "mainTitle": "Nasza oferta drzwi",
+  "title1": "Drzwi klasyczne",
+  "text1": "Eleganckie drzwi o ponadczasowym stylu, idealne do każdego wnętrza.",
+  "title2": "Drzwi nowoczesne",
+  "text2": "Minimalistyczne drzwi, które podkreślają nowoczesny charakter domu.",
+  "title3": "Drzwi przesuwne",
+  "text3": "Praktyczne i stylowe rozwiązanie, idealne do oszczędzania przestrzeni."
+  },
+
+  "review": {
+   "mainTitle": "Opinie naszych klientów",
+  "name1": "Anna Kowalska",
+  "desc1": "Drzwi zamówione w TwójSlotDrzwi były idealne! Pięknie zaprojektowane i solidnie wykonane. Polecam!",
+  "name2": "Piotr Nowak",
+  "desc2": "Zamówiłem nowoczesne drzwi do mojego mieszkania i są fantastyczne! Doskonały design i szybka dostawa.",
+  "name3": "Maria Wiśniewska",
+  "desc3": "Drzwi przesuwne z TwójSlotDrzwi to najlepszy wybór. Wysoka jakość i idealne dopasowanie do mojego wnętrza.",
+  "name4": "Janina Malinowska",
+  "desc4": "Doskonała obsługa i niesamowity wybór drzwi. Na pewno wrócę po więcej!",
+  "name5": "Tomasz Kowalczyk",
+  "desc5": "Drzwi klasyczne zamówione w TwójSlotDrzwi zrobiły ogromne wrażenie na moich znajomych. Polecam każdemu!",
+  "name6": "Katarzyna Zielińska",
+  "desc6": "Najlepsze drzwi w Polsce! Zamówiłam drzwi nowoczesne i jestem zachwycona ich wyglądem i funkcjonalnością."
+  },
+
+  "doors": {
+    "title1": "Drzwi Drewniane Klasyczne",
+  "desc1": "Eleganckie drzwi o ponadczasowym stylu, idealne do każdego wnętrza.",
+  "type1": "Drzwi Drewniane",
+
+  "title2": "Drzwi Szklane Przesuwne",
+  "desc2": "Nowoczesne drzwi szklane z mechanizmem przesuwnym, idealne do małych przestrzeni.",
+  "type2": "Drzwi Szklane",
+
+  "title3": "Drzwi Metalowe Zewnętrzne",
+  "desc3": "Wytrzymałe drzwi metalowe, zapewniające bezpieczeństwo i trwałość.",
+  "type3": "Drzwi Metalowe",
+
+  "title4": "Drzwi Wewnętrzne Nowoczesne",
+  "desc4": "Minimalistyczne drzwi wewnętrzne, które podkreślają nowoczesny charakter domu.",
+  "type4": "Drzwi Wewnętrzne",
+
+  "title5": "Drzwi Harmonijkowe",
+  "desc5": "Praktyczne drzwi harmonijkowe, idealne do oszczędzania przestrzeni.",
+  "type5": "Drzwi Harmonijkowe",
+
+  "title6": "Drzwi Antywłamaniowe",
+  "desc6": "Drzwi z systemem antywłamaniowym, zapewniające maksymalne bezpieczeństwo.",
+  "type6": "Drzwi Antywłamaniowe",
+
+  "title7": "Drzwi Przeszklone Stylowe",
+  "desc7": "Drzwi z przeszkleniem, które dodają elegancji i przepuszczają światło.",
+  "type7": "Drzwi Przeszklone",
+
+  "title8": "Drzwi Dźwiękoszczelne",
+  "desc8": "Drzwi dźwiękoszczelne, idealne do biur lub sypialni, gdzie ważna jest cisza.",
+  "type8": "Drzwi Dźwiękoszczelne",
+
+  "title9": "Drzwi Malowane na Wymiar",
+  "desc9": "Drzwi malowane na wymiar, dopasowane do Twoich indywidualnych potrzeb.",
+  "type9": "Drzwi Malowane"
+  },
+  "cookie": {
+    "mainTitle": "Polityka Plików Cookie",
+
+    "title1": "1. Czym są pliki cookie:",
+    "title2": "2. Jak wykorzystujemy pliki cookie:",
+    "title3": "3. Rodzaje plików cookie, które wykorzystujemy:",
+    "title4": "4. Zarządzanie plikami cookie:",
+
+    "text1": "Data wejścia w życie: 1 stycznia 2024",
+    "text2": "twójslotdrzwi.comwykorzystuje pliki cookie, aby poprawić Twoje doświadczenie na naszej stronie i dostarczyć bardziej spersonalizowane usługi.",
+    "text3": "Pliki cookie to małe pliki zapisywane na Twoim urządzeniu przez naszą stronę internetową. Służą one do poprawy funkcjonalności strony oraz optymalizacji doświadczenia użytkownika.",
+    "text4": "Możesz zarządzać plikami cookie lub je wyłączyć w ustawieniach swojej przeglądarki. Należy jednak pamiętać, że wyłączenie plików cookie może wpłynąć na działanie niektórych funkcji naszej strony.",
+    "text5": "Korzystając z naszej strony, zgadzasz się na wykorzystanie plików cookie, zgodnie z opisem w tej polityce. Jeśli masz pytania dotyczące plików cookie, skontaktuj się z nami pod adresem kontakt@twójslotdrzwi.com",
+
+    "item1": "Aby monitorować wydajność naszej strony i poprawić Twoje doświadczenie użytkownika.",
+    "item2": "Aby zapamiętać Twoje ustawienia, dzięki czemu możemy dostarczyć lepsze usługi.",
+    "item3": "Niezbędne pliki cookie: Są wymagane do podstawowej funkcjonalności strony, na przykład zapamiętywania koszyka zakupowego lub danych logowania.",
+    "item4": "Analityczne pliki cookie: Używane do monitorowania sposobu korzystania ze strony oraz poprawy jej wydajności."
+  },
+  "warunki": {
+    "mainTitle": "Warunki Użytkowania",
+
+    "title1": "1. Zasady Ogólne:",
+    "title2": "2. Własność Intelektualna:",
+    "title3": "3. Odpowiedzialność:",
+    "title4": "4. Zmiany:",
+
+    "text1": "Data wejścia w życie: 1 stycznia 2024",
+    "text2": "Witamy na stronie twójslotdrzwi.com Korzystając z naszej strony, akceptujesz poniższe warunki użytkowania.",
+    "text3": "Wszystkie treści na tej stronie, w tym zdjęcia i logo, są własnością twójslotdrzwi.com Wykorzystywanie treści bez naszej zgody jest zabronione.",
+    "text4": "Nie ponosimy odpowiedzialności za jakiekolwiek szkody wynikające z korzystania z naszej strony lub świadczonych przez nas usług.",
+    "text5": "Zastrzegamy sobie prawo do zmiany tych warunków w dowolnym momencie. Kontynuowanie korzystania ze strony po zmianach oznacza akceptację nowych warunków.",
+    "text6": "Jeśli masz jakiekolwiek pytania, skontaktuj się z nami pod adresem kontakt@twójslotdrzwi.com",
+
+    "item1": "Aby korzystać z naszych usług i dokonywać zakupów, musisz mieć ukończone 18 lat.",
+    "item2": "Zobowiązujesz się do korzystania z naszej strony zgodnie z obowiązującym prawem."
+  },
+  "privacy": {
+    "mainTitle": "Polityka Prywatności",
+
+    "title1": "1. Jakie dane zbieramy:",
+    "title2": "2. Jak wykorzystujemy Twoje dane:",
+    "title3": "3. Udostępnianie danych:",
+    "title4": "4. Pliki cookie:",
+    "title5": "5. Ochrona danych:",
+    "title6": "6. Twoje prawa:",
+
+    "text1": "Data wejścia w życie: 1 stycznia 2024",
+    "text2": "twójslotdrzwi.com(my, nasz, nam) szanuje Twoją prywatność. Niniejsza Polityka Prywatności wyjaśnia, w jaki sposób gromadzimy, wykorzystujemy i chronimy Twoje dane osobowe podczas korzystania z naszej strony internetowej.",
+    "text3": "Nie udostępniamy Twoich danych osobowych stronom trzecim, chyba że jest to wymagane przez prawo.",
+    "text4": "Wykorzystujemy pliki cookie, aby poprawić Twoje doświadczenie na naszej stronie oraz dostarczyć bardziej spersonalizowane usługi.",
+    "text5": "Podejmujemy odpowiednie środki bezpieczeństwa, aby chronić Twoje dane osobowe.",
+    "text6": "Masz prawo dostępu do swoich danych osobowych, ich poprawy lub usunięcia.",
+    "text7": "W przypadku pytań dotyczących prywatności, prosimy o kontakt pod adresem kontakt@twójslotdrzwi.com",
+
+    "item1": "Dane osobowe, które podajesz (imię, adres e-mail itp.).",
+    "item2": "Dane zbierane za pomocą plików cookie.",
+    "item3": "Aby dostarczyć nasze usługi.",
+    "item4": "Aby ulepszyć Twoje doświadczenie użytkownika."
+  },
+
+  "footer": {
+    "link1": "Start",
+    "link2": "O Nas",
+    "link3": "Usługi",
+    "link4": "Produkty",
+    "link5": "Opinie",
+    "link6": "Kontakt",
+    "link7": "Polityka prywatności",
+    "link8": "Regulamin",
+    "link9": "Polityka Cookies",
+
+    "text1": "Telefon:",
+    "text2": "Adres: ul. Piękna 10, 00-000 Warszawa",
+    "text3": "Email:",
+
+    "text": "TwójSlotDrzwi 2024. Wszystkie prawa zastrzeżone."
+  },
+  "cookieBanner": {
+    "text": "Ta strona używa plików cookie, aby zapewnić Ci lepszą jakość przeglądania i dostosować treści do Twoich potrzeb.",
+    "button": "Zgadzam się na pliki cookie"
+  },
+  "thankYou": {
+    "title": "Dziękujemy!",
+    "text": "Twoja wiadomość została pomyślnie wysłana. Skontaktujemy się z Tobą w najbliższym czasie.",
+    "button": "Powrót na stronę główną"
+  },
+  "contacts": {
+    "formTitle": "Skontaktuj się z nami",
+
+    "label1": "Twoje imię",
+    "label2": "Twój email",
+    "label3": "Numer telefonu",
+    "label4": "Twoja wiadomość",
+
+    "infoTitle": "Nasze dane kontaktowe",
+    "phone": "Telefon:",
+    "address": "Adres:",
+    "email": "kontakt@twójslotdrzwi.com",
+
+    "button": "Wyślij wiadomość"
+  }
+}

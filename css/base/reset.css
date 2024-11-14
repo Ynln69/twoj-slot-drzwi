@@ -1,0 +1,97 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.btn:link,
+.btn:visited {
+  position: relative;
+  z-index: 4;
+  display: block;
+  width: 250px;
+  padding: 15px 40px;
+  border-radius: 100px;
+  transition: all 0.2s;
+  margin: 0 auto;
+
+  color: var(--therd-color);
+  font-size: clamp(1rem, 0.357vw + 0.929rem, 1.25rem);
+  line-height: clamp(1.3rem, 0.464vw + 1.207rem, 1.625rem);
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.btn-white {
+  background-color: var(--accent-color);
+  color: var(--main-color);
+}
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+  color: var(--main-color);
+}
+.btn-white::after {
+  background: var(--second-bg-color);
+  
+}
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+.btn-animated {
+  animation: moveInBottom 5s ease-out;
+  animation-fill-mode: backwards;
+}
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="../public/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TwójSlotDrzwi – Najlepsze drzwi w Polsce. Stylowe, trwałe i nowoczesne drzwi, które idealnie pasują do każdego wnętrza."
+    />
+    <meta
+      name="keywords"
+      content="drzwi, drzwi nowoczesne, drzwi klasyczne, drzwi przesuwne, Polska, design, jakość, slot online"
+    />
+    <title>TwójSlotDrzwi – Najlepsze drzwi w Polsce</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/styles.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta
+      property="og:title"
+      content="TwójSlotDrzwi – Najlepsze drzwi w Polsce"
+    />
+    <meta
+      property="og:description"
+      content="Stylowe i trwałe drzwi od TwójSlotDrzwi. Odkryj naszą kolekcję produktów, które łączą funkcjonalność i wyjątkowy design."
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="desktop-navigation">
+        <ul class="nav-left">
+          <li><a href="../#about" data-translate="header.link1">O nas</a></li>
+          <li><a href="../#services" data-translate="header.link2">Usługi</a></li>
+          <li><a href="../#reviews" data-translate="header.link3">Opinie </a></li>
+        </ul>
+        <a class="logo" href="./">
+          <img
+            src="../img/logo-removebg-preview.png"
+            alt="TwójSlotDrzwi Logo"
+            width="100"
+            height="100"
+          />
+        </a>
+        <ul class="nav-right">
+          <li><a href="./index.html" data-translate="header.link4">Produkty</a></li>
+          <li>
+            <div class="language-select">
+              <select id="language-dropdown" class="header-select">
+                <option value="pl" id="lang-pl">Polski</option>
+                <option value="en" id="lang-en">English</option>
+              </select>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" aria-label="Otwórz menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="mobile-navigation">
+        <button class="menu-close" aria-label="Zamknij menu">&times;</button>
+        <ul>
+          <li><a href="../#about" data-translate="header.link1">O nas</a></li>
+          <li><a href="../#services" data-translate="header.link2">Usługi</a></li>
+          <li><a href="../#reviews" data-translate="header.link3">Opinie </a></li>
+          <li><a href="./index.html" data-translate="header.link4">Produkty</a></li>
+          <li>
+            <div class="language-select">
+              <select id="mobile-language-dropdown" class="header-select">
+                <option value="pl" id="mobile-lang-pl">Polski</option>
+                <option value="en" id="mobile-lang-en">English</option>
+              </select>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="container">
+          <h1 data-translate="hero.mainTitle">
+            Witamy w naszym sklepie z naczyniami!
+          </h1>
+          <p data-translate="hero.text" class="text">
+            Najwyższa jakość i nowoczesny design dla twojej kuchni.
+          </p>
+          <a
+            href="./page/index.html"
+            class="btn btn-white btn-animate"
+            data-translate="hero.btn"
+            >Poznaj ofertę</a
+          >
+        </div>
+      </section>
+      <section class="contact-section">
+        <div class="container">
+          <div class="contact-wrapper">
+            <!-- Form -->
+            <form id="contact-form" class="contact-form">
+              <h3 data-translate="contacts.formTitle" class="form-title">
+                Skontaktuj się z nami
+              </h3>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name" data-translate="contacts.label1"
+                    >Twoje imię</label
+                  >
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Wpisz swoje imię"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email" data-translate="contacts.label2"
+                    >Twój email</label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="Wpisz swój adres email"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone" data-translate="contacts.label3"
+                    >Numer telefonu</label
+                  >
+                  <input
+                    type="text"
+                    id="phone"
+                    placeholder="Numer telefonu"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message" data-translate="contacts.label4"
+                  >Twoja wiadomość</label
+                >
+                <textarea
+                  id="message"
+                  rows="5"
+                  placeholder="Napisz swoją wiadomość tutaj..."
+                  required
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="btn-primary btn-submit"
+                data-translate="contacts.button"
+              >
+                Wyślij wiadomość
+              </button>
+            </form>
+            <!-- Contact Info -->
+            <div class="contact-info">
+              <h3 class="info-title" data-translate="contacts.infoTitle">
+                Nasze dane kontaktowe
+              </h3>
+              <p class="text">
+                <i class="fas fa-phone-alt"></i>
+                <a href="tel:+48726617300" data-translate="contacts.phone">
+                  Telefon: +48 726 617 300
+                </a>
+              </p>
+              <p class="text">
+                <i class="fas fa-map-marker-alt"></i>
+                <span data-translate="contacts.address">
+                  Adres: ul. Zielona 15, 80-123 Gdańsk
+                </span>
+              </p>
+              <p class="text">
+                <i class="fas fa-envelope"></i>
+                <a
+                  href="mailto:kontakt@twojslotdrzwi.com"
+                  data-translate="contacts.email"
+                >
+                  kontakt@twojslotdrzwi.com
+                </a>
+              </p>
+              <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2392.651876880936!2d18.620800015766203!3d54.35499898020351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fda6b579928a8f%3A0xb27e7f60c7e12b5c!2sZielona%2015%2C%2080-123%20Gda%C5%84sk%2C%20Polska!5e0!3m2!1spl!2spl!4v1699548603134!5m2!1spl!2spl"
+                  width="100%"
+                  height="300"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer section">
+      <div class="container footer-container">
+        <div class="footer-navigation">
+          <ul>
+            <li><a href="../#hero" data-translate="footer.link1">Start</a></li>
+            <li><a href="../#about" data-translate="footer.link2">O nas</a></li>
+            <li>
+              <a href="../#services" data-translate="footer.link3">Usługi</a>
+            </li>
+            <li>
+              <a href="../#products" data-translate="footer.link4">Produkty</a>
+            </li>
+            <li>
+              <a href="../#reviews" data-translate="footer.link5">Opinie</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <a href="./polityka-page.html" data-translate="footer.link7"
+            >Polityka prywatności</a
+          >
+          <a href="./warunki-page.html" data-translate="footer.link8"
+            >Regulamin</a
+          >
+          <a href="./cookie-page.html" data-translate="footer.link9"
+            >Polityka Cookies</a
+          >
+        </div>
+        <div class="footer-bottom">
+          <p data-translate="footer.text">
+            &copy; TwójSlotDrzwi 2024. Wszystkie prawa zastrzeżone.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Çerez Bildirimi -->
+    <div id="cookie-banner" class="cookie-banner">
+      <p data-translate="cookieBanner.text">
+        Ta strona używa plików cookie, aby zapewnić Ci lepszą jakość
+        przeglądania i dostosować treści do Twoich potrzeb.
+      </p>
+      <button id="accept-cookies" data-translate="cookieBanner.button">
+        Zgadzam się na pliki cookie
+      </button>
+    </div>
+
+    <script src="https://unpkg.com/i18next-xhr-backend@latest/i18nextXHRBackend.min.js"></script>
+    <script src="https://unpkg.com/i18next@21.6.11/dist/umd/i18next.min.js"></script>
+    <script src="../js/translator.js"></script>
+    <script src="../js/mobile-menu.js"></script>
+    <script src="../js/form-contact.js"></script>
+    <script src="../js/cookie-banner.js"></script>
+  </body>
+</html>

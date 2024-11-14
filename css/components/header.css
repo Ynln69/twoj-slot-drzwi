@@ -1,0 +1,168 @@
+.header {
+  background: linear-gradient(135deg, #704214, #50392c);
+  color: var(--text-color);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.desktop-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.desktop-navigation a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 5px 10px;
+  transition: background-color var(--transition), color var(--transition);
+}
+
+.desktop-navigation a:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  border-radius: 5px;
+}
+
+.logo img {
+  height: auto;
+  display: block;
+}
+
+/* Мобільна навігація */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.menu-toggle span {
+  width: 25px;
+  height: 3px;
+  background-color: var(--text-color);
+  border-radius: 2px;
+}
+
+.mobile-navigation {
+  display: flex;
+  position: fixed;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-color);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: top 0.3s ease;
+  z-index: 1010;
+}
+
+
+.mobile-navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.mobile-navigation a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 10px;
+  display: block;
+}
+
+.menu-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+/* Анімації для мобільного меню */
+.header.active .mobile-navigation {
+  top: 0;
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+  .desktop-navigation {
+    display: none;
+  }
+  .menu-toggle {
+    display: flex;
+  }
+}
+
+.language-select {
+  position: relative;
+  display: inline-block;
+}
+
+.header-select {
+  width: 100px;
+  appearance: none;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  transition: border-color var(--transition), background-color var(--transition);
+}
+
+.header-select:hover,
+.header-select:focus {
+  border-color: var(--primary-color);
+  background-color: var(--accent-color);
+}
+
+.language-select::after {
+  content: "▼";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 10px;
+  color: var(--primary-color);
+}
+
+.nav-right .language-select {
+  margin-left: 15px;
+}
+
+/* Mobile Navigation */
+.mobile-navigation .language-select {
+  margin-top: 10px;
+  text-align: center;
+}
